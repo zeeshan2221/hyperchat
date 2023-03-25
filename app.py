@@ -2,7 +2,7 @@ import os
 import openai
 import wget
 import streamlit as st
-from PIL import Image
+from Pillow import Image
 from serpapi import GoogleSearch
 import torch
 from diffusers import StableDiffusionPipeline
