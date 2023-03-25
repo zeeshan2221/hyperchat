@@ -205,7 +205,7 @@ def openai_response(PROMPT):
 )
     return response["data"][0]["url"]
 
-st.title("Hi! :red[HyperBot] here!!🤖⭐️")
+st.title("welcome to Harshay!🤖⭐️")
 st.title("Go on ask me anything!!")
 
 st.write('''
