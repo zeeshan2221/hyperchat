@@ -206,18 +206,6 @@ def openai_response(PROMPT):
     return response["data"][0]["url"]
 
 st.title("welcome to Harshay!🤖⭐️")
-st.title("Go on ask me anything!!")
-
-st.write('''
-⭐️ *HyperBot is your virtual assistant powered by Whisper / 
-chatgpt / internet / Dall-E / OpenAI embeddings - the perfect 
-companion for you. With HyperBot, you can ask anything you ask 
-internet everyday . Get answers to questions about the weather, 
-stocks 📈, news📰, and more! Plus, you can also generate 🖌️ 
-paintings, drawings, abstract art 🎨, play music 🎵 or videos, 
-create tweets 🐦 and posts 📝, and compose emails 📧 - all with 
-the help of HyperBot!* 🤖 ✨
-''')
 
 st.text('''You can ask me: 
 1. All the things you ask ChatGPT.
