@@ -205,12 +205,12 @@ def openai_response(PROMPT):
 )
     return response["data"][0]["url"]
 
-st.title("welcome to Harshay!🤖⭐️")
+st.title("welcome to Harshay!")
 
 st.text('''You can ask me: 
 1. All the things you ask ChatGPT.
 2. To generate paintings, drawings, abstract art. 
-3. Music or Videos
+3. Seach and Play Music or Videos
 4. Weather 
 5. Stocks 
 6. Current Affairs and News.
