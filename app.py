@@ -227,7 +227,7 @@ if Input_type == 'TEXT':
         question=mytext
         response = openai.Completion.create(
           model="text-davinci-003",
-          prompt=f'''Your name is HyperBot and  knowledge cutoff date is 2021-09, and you are not aware of any events after that time. if the  
+          prompt=f'''Your name is HarshayBot and  knowledge cutoff date is 2021-09, and you are not aware of any events after that time. if the  
                     Answer to following questions is not from your knowledge base or in case of queries like date, time, weather 
                       updates / stock updates / current affairs / news or people which requires you to have internet connection  then print i don't have access to internet to answer your question, 
                       if  question is related to  image or  painting or drawing generation then print ipython type output function gen_draw("detailed prompt of image to be generated")
