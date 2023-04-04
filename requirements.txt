@@ -22,3 +22,4 @@ pandasql
 pandas
 sounddevice==0.4.1
 soundfile
+PIL
